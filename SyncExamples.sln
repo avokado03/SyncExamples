@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncExamples", "SyncExample
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LockMonitor", "LockMonitor\LockMonitor.csproj", "{DF119BBC-671F-40B3-A9E3-E5745B6A634E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore_SemaphoreSlim", "Semaphore_SemaphoreSlim\Semaphore_SemaphoreSlim.csproj", "{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore_SemaphoreSlim", "Semaphore_SemaphoreSlim\Semaphore_SemaphoreSlim.csproj", "{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{27854AFF-947D-4B4A-AB3C-DE5E929EC802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
