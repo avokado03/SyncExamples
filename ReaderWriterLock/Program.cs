@@ -2,8 +2,16 @@
 {
 	internal class Program
 	{
+		/// <summary>
+		/// ReaderWriterLockSlim is similar to ReaderWriterLock, 
+		/// but it has simplified rules for recursion and for upgrading and downgrading lock state. 
+		/// ReaderWriterLockSlim avoids many cases of potential deadlock. 
+		/// In addition, the performance of ReaderWriterLockSlim is significantly better than ReaderWriterLock. 
+		/// ReaderWriterLockSlim is recommended for all new development.
+		/// </summary>
 		static ReaderWriterLock rwLock = new();
 		static List<int> list = new List<int> {1, 2, 3 };
+
 
 		static void Main(string[] args)
 		{
