@@ -6,3 +6,5 @@
 2. Mutex
 3. Semaphore
 4. ReadWriteLock
+5. AutoResetEvent
+6. Barrier
