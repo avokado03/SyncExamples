@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LockMonitor", "LockMonitor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore_SemaphoreSlim", "Semaphore_SemaphoreSlim\Semaphore_SemaphoreSlim.csproj", "{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6817107B-0ABB-4C3D-84E5-AF370CA09DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC3D7B3-C444-42DE-96F7-F41297FBCF89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
