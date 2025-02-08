@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore_SemaphoreSlim", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{BBD82BB5-B121-4DE7-84D9-8D5DA591F33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{27854AFF-947D-4B4A-AB3C-DE5E929EC802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoResetEvent", "AutoResetEvent\AutoResetEvent.csproj", "{27854AFF-947D-4B4A-AB3C-DE5E929EC802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier.csproj", "{2C8E3C9B-9576-4950-8404-5762BF8C11B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27854AFF-947D-4B4A-AB3C-DE5E929EC802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8E3C9B-9576-4950-8404-5762BF8C11B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8E3C9B-9576-4950-8404-5762BF8C11B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8E3C9B-9576-4950-8404-5762BF8C11B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8E3C9B-9576-4950-8404-5762BF8C11B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
