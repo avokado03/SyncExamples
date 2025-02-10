@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoResetEvent", "AutoReset
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barrier", "Barrier\Barrier.csproj", "{2C8E3C9B-9576-4950-8404-5762BF8C11B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Volatile", "Volatile\Volatile.csproj", "{A91E6DE1-214E-4F51-B7BD-B662CAC0F31B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Volatile", "Volatile\Volatile.csproj", "{A91E6DE1-214E-4F51-B7BD-B662CAC0F31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interlocked", "Interlocked\Interlocked.csproj", "{522F24EB-3A9E-426B-AD5F-87697A1880E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,22 @@ Global
 		{A91E6DE1-214E-4F51-B7BD-B662CAC0F31B}.Release|ARM64.Build.0 = Release|ARM64
 		{A91E6DE1-214E-4F51-B7BD-B662CAC0F31B}.Release|x86.ActiveCfg = Release|x86
 		{A91E6DE1-214E-4F51-B7BD-B662CAC0F31B}.Release|x86.Build.0 = Release|x86
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|ARM32.ActiveCfg = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|ARM32.Build.0 = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|ARM32.ActiveCfg = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|ARM32.Build.0 = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|ARM64.Build.0 = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{522F24EB-3A9E-426B-AD5F-87697A1880E2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
